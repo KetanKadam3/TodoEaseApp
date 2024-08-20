@@ -1,27 +1,33 @@
 {
   "expo": {
-    "name": "todoeaseapp",
+    "name": "TodoEase",
     "slug": "todoeaseapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/apple-touch-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Spinner@1x-1.0s-200px-200px.gif",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#5D5FEF"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/to-do-list.png",
+        "backgroundColor": "#5D5FEF"
+      },
+      "package": "com.k3tan_3_3.todoeaseapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/fevicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0f93692-ff47-43f0-bfe1-42a9abb86cd4"
+      }
     }
   }
 }
